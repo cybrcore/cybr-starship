@@ -1,3 +1,10 @@
+# ---------------------------------------
+# CYBRship    starship theme (part of cybrland)
+# Project:    https://github.com/scherrer-txt/cybrland
+# Author:     scherrer-txt   |   License:     MIT
+# Source:     ~/.config/starship/CYBRship.toml
+# ---------------------------------------
+
 scan_timeout = 100
 
 format = """
