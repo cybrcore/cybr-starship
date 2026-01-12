@@ -16,7 +16,7 @@
 
 ## Steps
 ### 0. Before you start
-- Make sure [Geist Mono Nerd Font](../INSTALL.md##Prerequisites&Setup) is installed
+- Make sure [Geist Mono Nerd Font](../INSTALL.md#prerequisites--setup) is installed
 - Make sure fish is installed: `sudo pacman -S fish` with theme and config applied
 - See [Installation Guide](../INSTALL.md) if you haven't set up prerequisites yet
 - [Github](https://github.com/starship/starship)
