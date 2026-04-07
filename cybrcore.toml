@@ -1,8 +1,8 @@
 # ---------------------------------------
-# CYBRship    starship theme (part of cybrland)
-# Project:    https://github.com/scherrer-txt/cybrland
-# Author:     scherrer-txt   |   License:     GPL-3.0
-# Source:     ~/.config/starship/CYBRship.toml
+# cybr-starship    lucid theme for starship
+# Project:         https://github.com/cybrcore/cybr-starship
+# Author:          scherrer-txt   |   License:     GPL-3.0
+# Source:          ~/.config/starship/cybrcore.toml
 # ---------------------------------------
 
 scan_timeout = 100

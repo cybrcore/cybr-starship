@@ -1,31 +1,30 @@
-```
- ░▒▓███████▓▒░▒▓████████▓▒░▒▓███████▓▒░ ░▒▓███████▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░  
-░▒▓█▓▒░         ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ 
-░▒▓█▓▒░         ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ 
- ░▒▓██████▓▒░   ░▒▓█▓▒░   ░▒▓███████▓▒░ ░▒▓██████▓▒░░▒▓████████▓▒░▒▓███████▓▒░  
-       ░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
-       ░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
-░▒▓███████▓▒░   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
-```
+<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/repo-banners/cybr-starship-banner.png" height=200px/>
 
-<img src="../assets/inspiration/insp-starship.png"/></td>
+# Showcase
+<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/showcase/cybr-starship.png"/>
 <p align="center">
   <em>starship ↗ (left to right: terminal, terminal, directory, git)</em>
 </p>
 
 # Steps
 ## 0. Before you start
-- Make sure [Geist Mono Nerd Font](../INSTALL.md#prerequisites--setup) is installed
-- Make sure fish is installed: `sudo pacman -S fish` with theme and config applied
-- See [Installation Guide](../INSTALL.md) if you haven't set up prerequisites yet
-- [Github](https://github.com/starship/starship)
+- Make sure [Geist Mono Nerd Font](../INSTALL.md#prerequisites--setup#Fonts) is installed, you can do that from terminal with:
+```bash
+curl -L https://github.com/ryanoasis/nerd-fonts/releases/latest/download/GeistMono.zip -o GeistMono.zip
+mkdir -p ~/.local/share/fonts
+unzip GeistMono.zip -d ~/.local/share/fonts/GeistMono
+fc-cache -fv
+```
+- Make sure fish is installed: `sudo pacman -S fish` with [cybrcore theme](https://github.com/cybrcore/cybr-fish) and config applied
+- See [Installation Guide](https://github.com/cybrcore/cybrland/blob/main/INSTALL.md) if you`re coming from [cybr-hyprland](https://github.com/cybrcore/cybrland) and haven't set up prerequisites yet
+- [starship Github](https://github.com/starship/starship)
 
 ## 1. Create config file
 
 ```sh
 micro ~/.config/starship.toml
 ```
-## 2. Insert [CYBRship](../starship/CYBRship.toml)
+## 2. Insert [cybrcore theme](../starship/cybrcore.toml) inside starship.toml
 
 ## 3. Enable transcience in fish
 ### Open config.fish
