@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/repo-banners/cybr-starship-banner.png" height=200px/>
+<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/repo-banners/cybr-starship-banner-top.png"/>
 
 # Showcase
 <img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/showcase/cybr-starship.png"/>
@@ -16,7 +16,7 @@ unzip GeistMono.zip -d ~/.local/share/fonts/GeistMono
 fc-cache -fv
 ```
 - Make sure fish is installed: `sudo pacman -S fish` with [cybrcore theme](https://github.com/cybrcore/cybr-fish) and config applied
-- See [Installation Guide](https://github.com/cybrcore/cybrdots/blob/main/INSTALL.md) if you're coming from [cybr-hyprland](https://github.com/cybrcore/cybr-hyprland) and haven't set up prerequisites yet
+- See [Installation Guide](https://github.com/cybrcore/cybrdots/blob/main/INSTALL.md) if you're coming from [cybrdots](https://github.com/cybrcore/cybrdots) and haven't set up prerequisites yet
 - [starship Github](https://github.com/starship/starship)
 
 ## 1. Create config file
